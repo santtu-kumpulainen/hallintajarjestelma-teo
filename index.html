@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEO-hallintajarjestelma</title>
+</head>
+<body>
+
+    <h1>TEO-hallintajärjestelmä</h1>
+
+    <h2>Lisää opiskelija</h2>
+
+    <form id="opiskelijaForm">
+        <label for="etunimi">Etunimi</label>
+        <input type="text" id="etunimi" required>
+
+        <br><br>
+
+        <label for="sukunimi">Sukunimi</label>
+        <input type="text" id="sukunimi" required>
+
+        <br><br>
+
+        <label for="email">Sähköposti</label>
+        <input type="email" id="email">
+
+        <br><br>
+
+        <label for="puhelin">Puhelin</label>
+        <input type="text" id="puhelin">
+
+        <br><br>
+
+        <button type="submit">Tallenna opiskelija</button>
+    </form>
+
+    <p id="viesti"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
